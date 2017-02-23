@@ -31,10 +31,9 @@ include("includes/header.php"); ?>
 							foreach($categories as $id) { 
                 				echo get_item_html($id,$catalog[$id]);
             				} 
-            			?>	
-            ?>
+            			?>
         </ul>
     </div>
 </div>
-</div> <!-- end content -->
+
 <?php include("includes/footer.php"); ?>
